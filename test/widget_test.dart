@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:memory_words/app.dart';
+import 'package:wordbit/app.dart';
 
 void main() {
   testWidgets('App renders home page', (WidgetTester tester) async {

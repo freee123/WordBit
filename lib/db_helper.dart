@@ -12,7 +12,7 @@ class DbHelper {
 
   static Future<Database> _initDb() async {
     final dbPath = await getDatabasesPath();
-    final path = '$dbPath/memory_words.db';
+    final path = '$dbPath/wordbit.db';
     return openDatabase(
       path,
       version: 2,
